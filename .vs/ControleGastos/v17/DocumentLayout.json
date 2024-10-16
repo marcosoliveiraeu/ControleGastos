@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrador\\Documents\\GitHub\\ControleGastos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EABB2EE1-9F8B-4D7D-84EA-64867DDB7F2B}|ControleGastos.csproj|C:\\Users\\Administrador\\Documents\\GitHub\\ControleGastos\\controllers\\transacaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EABB2EE1-9F8B-4D7D-84EA-64867DDB7F2B}|ControleGastos.csproj|solutionrelative:controllers\\transacaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EABB2EE1-9F8B-4D7D-84EA-64867DDB7F2B}|ControleGastos.csproj|c:\\users\\administrador\\documents\\github\\controlegastos\\services\\transacaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EABB2EE1-9F8B-4D7D-84EA-64867DDB7F2B}|ControleGastos.csproj|solutionrelative:services\\transacaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EABB2EE1-9F8B-4D7D-84EA-64867DDB7F2B}|ControleGastos.csproj|c:\\users\\administrador\\documents\\github\\controlegastos\\dtos\\transacaoeditdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EABB2EE1-9F8B-4D7D-84EA-64867DDB7F2B}|ControleGastos.csproj|solutionrelative:dtos\\transacaoeditdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EABB2EE1-9F8B-4D7D-84EA-64867DDB7F2B}|ControleGastos.csproj|c:\\users\\administrador\\documents\\github\\controlegastos\\middleware\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EABB2EE1-9F8B-4D7D-84EA-64867DDB7F2B}|ControleGastos.csproj|solutionrelative:middleware\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 333,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TransacaoEditDto.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Documents\\GitHub\\ControleGastos\\DTOs\\TransacaoEditDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\TransacaoEditDto.cs",
+              "ToolTip": "C:\\Users\\Administrador\\Documents\\GitHub\\ControleGastos\\DTOs\\TransacaoEditDto.cs",
+              "RelativeToolTip": "DTOs\\TransacaoEditDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T21:27:18.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ErrorHandlingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Documents\\GitHub\\ControleGastos\\Middleware\\ErrorHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "Middleware\\ErrorHandlingMiddleware.cs",
+              "ToolTip": "C:\\Users\\Administrador\\Documents\\GitHub\\ControleGastos\\Middleware\\ErrorHandlingMiddleware.cs",
+              "RelativeToolTip": "Middleware\\ErrorHandlingMiddleware.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAwwDMAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T21:12:35.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TransacaoService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Documents\\GitHub\\ControleGastos\\Services\\TransacaoService.cs",
+              "RelativeDocumentMoniker": "Services\\TransacaoService.cs",
+              "ToolTip": "C:\\Users\\Administrador\\Documents\\GitHub\\ControleGastos\\Services\\TransacaoService.cs",
+              "RelativeToolTip": "Services\\TransacaoService.cs",
+              "ViewState": "AQIAAF4AAAAAAAAAAAAswCcAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T21:36:40.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TransacaoController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Documents\\GitHub\\ControleGastos\\Controllers\\TransacaoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TransacaoController.cs",
+              "ToolTip": "C:\\Users\\Administrador\\Documents\\GitHub\\ControleGastos\\Controllers\\TransacaoController.cs",
+              "RelativeToolTip": "Controllers\\TransacaoController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHUAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T21:44:18.53Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 67,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

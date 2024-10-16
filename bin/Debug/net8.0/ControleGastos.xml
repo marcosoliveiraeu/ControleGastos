@@ -1,0 +1,194 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ControleGastos</name>
+    </assembly>
+    <members>
+        <member name="M:ControleGastos.Controllers.TransacaoController.GetTransacoes(ControleGastos.DTOs.TransacaoRequestDto)">
+            <summary>
+                Consulta de Transações
+            </summary>
+            <remarks>
+                Retorna as transações realizadas para determinado cliente no intervalo de datas informado via parametros
+            </remarks>
+            <param name="requestDto"></param>
+            <returns></returns>
+            <response code="200">Lista de transações</response>
+            <response code="400">Parâmetros inválidos</response>
+            <response code="404">Cliente não encontrado</response>
+            <response code="500">Erro interno</response>
+        </member>
+        <member name="M:ControleGastos.Controllers.TransacaoController.AddTransacao(ControleGastos.DTOs.TransacaoAddDto)">
+            <summary>
+                Incluir nova transação 
+            </summary>
+            <remarks>
+                Inclui uma nova transação para determinado cliente
+            </remarks>
+            <response code="200">Transação inserida com sucesso</response>
+            <response code="404">Cliente, classificação, tipo de transação ou forma de saída não encontrados</response>
+            <response code="500">Erro interno</response>
+        </member>
+        <member name="M:ControleGastos.Controllers.TransacaoController.DeleteTransacao(System.Int32)">
+            <summary>
+                Excluir uma transação 
+            </summary>
+            <remarks>
+                Exclui uma transação de acordo com o Id informado
+            </remarks>
+            <response code="200">Transação excluída com sucesso</response>
+            <response code="404">Transação não encontrada</response>
+            <response code="500">Erro interno</response>
+        </member>
+        <member name="M:ControleGastos.Controllers.TransacaoController.EditTransacao(ControleGastos.DTOs.TransacaoEditDto)">
+            <summary>
+                Editar uma transação 
+            </summary>
+            <remarks>
+                Edita uma transação de acordo com o dados informados
+            </remarks>
+            <response code="200">Transação alterada com sucesso</response>
+            <response code="400">Parâmetros inválidos</response>
+            <response code="404">Transação , classificação, tipo de transação ou forma de saída não encontrados</response>
+            <response code="500">Erro interno</response>
+        </member>
+        <member name="P:ControleGastos.DTOs.TransacaoAddDto.DataTransacao">
+            <summary>
+                Data em que foi realizada a transação
+            </summary>
+        </member>
+        <member name="P:ControleGastos.DTOs.TransacaoAddDto.Descricao">
+            <summary>
+                Descrição da transação
+            </summary>
+        </member>
+        <member name="P:ControleGastos.DTOs.TransacaoAddDto.Valor">
+            <summary>
+                Valor da transação
+            </summary>
+        </member>
+        <member name="P:ControleGastos.DTOs.TransacaoAddDto.ClienteId">
+            <summary>
+                Id do cliente que está realizando essa transação
+            </summary>
+        </member>
+        <member name="P:ControleGastos.DTOs.TransacaoAddDto.TipoTransacaoId">
+            <summary>
+                Id do tipo da transação , 0 para Entrada ou 1 para Saída de valor
+            </summary>
+        </member>
+        <member name="P:ControleGastos.DTOs.TransacaoAddDto.FormaSaidaId">
+            <summary>
+                Id da Forma de saída : 
+                1 =	Cartão Débito , 
+                2 =	Cartão Crédito , 
+                3 =	Pix , 
+                4 = Boleto , 
+                5 = Saque
+            </summary>
+        </member>
+        <member name="P:ControleGastos.DTOs.TransacaoAddDto.ClassificacaoId">
+            <summary>
+                Id da classificação da transação : 
+                1 =	Mercado , 
+                2 =	Lazer , 
+                3 =	Combustivel , 
+                4 =	Farmacia , 
+                5 =	Pets , 
+                6 =	Comida extra , 
+                7 = outros
+            </summary>
+        </member>
+        <member name="P:ControleGastos.DTOs.TransacaoEditDto.Id">
+            <summary>
+                Chave unica da transação
+            </summary>
+        </member>
+        <member name="P:ControleGastos.DTOs.TransacaoEditDto.DataTransacao">
+            <summary>
+                Data em que foi realizada a transação
+            </summary>
+        </member>
+        <member name="P:ControleGastos.DTOs.TransacaoEditDto.Descricao">
+            <summary>
+                Descrição da transação
+            </summary>
+        </member>
+        <member name="P:ControleGastos.DTOs.TransacaoEditDto.Valor">
+            <summary>
+                Valor da transação
+            </summary>
+        </member>
+        <member name="P:ControleGastos.DTOs.TransacaoEditDto.TipoTransacaoId">
+            <summary>
+                Id do tipo da transação , 0 para Entrada ou 1 para Saída de valor
+            </summary>
+        </member>
+        <member name="P:ControleGastos.DTOs.TransacaoEditDto.FormaSaidaId">
+            <summary>
+                Id da Forma de saída : 
+                1 =	Cartão Débito , 
+                2 =	Cartão Crédito , 
+                3 =	Pix , 
+                4 = Boleto , 
+                5 = Saque
+            </summary>
+        </member>
+        <member name="P:ControleGastos.DTOs.TransacaoEditDto.ClassificacaoId">
+            <summary>
+                Id da classificação da transação : 
+                1 =	Mercado , 
+                2 =	Lazer , 
+                3 =	Combustivel , 
+                4 =	Farmacia , 
+                5 =	Pets , 
+                6 =	Comida extra , 
+                7 = outros
+            </summary>
+        </member>
+        <member name="P:ControleGastos.DTOs.TransacaoRequestDto.ClienteId">
+            <summary>
+                Id único do cliente a ser consultado
+            </summary>
+        </member>
+        <member name="P:ControleGastos.DTOs.TransacaoRequestDto.DataInicio">
+            <summary>
+                Data inicial do intervalo da consulta
+            </summary>
+        </member>
+        <member name="P:ControleGastos.DTOs.TransacaoRequestDto.DataFim">
+            <summary>
+                Data final do intervalo da consulta
+            </summary>
+        </member>
+        <member name="T:ControleGastos.Enum.TipoTransacao">
+            <summary>
+                Entrada = 0 , Saída = 1
+            </summary>
+        </member>
+        <member name="T:ControleGastos.Migrations.BaseInicial">
+            <inheritdoc />
+        </member>
+        <member name="M:ControleGastos.Migrations.BaseInicial.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ControleGastos.Migrations.BaseInicial.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ControleGastos.Migrations.BaseInicial.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:ControleGastos.Migrations.alteracaoValor">
+            <inheritdoc />
+        </member>
+        <member name="M:ControleGastos.Migrations.alteracaoValor.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ControleGastos.Migrations.alteracaoValor.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ControleGastos.Migrations.alteracaoValor.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
